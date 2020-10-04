@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+    <defs>
+        <circle id="b" cx="28" cy="28" r="28"/>
+        <filter id="a" width="146.4%" height="146.4%" x="-23.2%" y="-19.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0886265851 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="nonzero">
+        <g transform="translate(8 6)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" xlink:href="#b"/>
+        </g>
+        <g transform="translate(24 23)">
+            <path stroke="#F19ABE" stroke-linecap="round" stroke-width="4" d="M.403 4.362H24.77M.403 11.5H24.77M.403 18.638H24.77"/>
+            <ellipse cx="18.145" cy="4.362" fill="#F19ABE" stroke="#FFF" stroke-width="1.6" rx="3.635" ry="3.562"/>
+            <ellipse cx="6.855" cy="11.5" fill="#F19ABE" stroke="#FFF" stroke-width="1.6" rx="3.635" ry="3.562"/>
+            <ellipse cx="18.145" cy="18.638" fill="#F19ABE" stroke="#FFF" stroke-width="1.6" rx="3.635" ry="3.562"/>
+        </g>
+    </g>
+</svg>
